@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: userservice
-        image: gcr.io/mean-krm-ff/cymbal-bank/release/userservice:2c19bd1
+        image: gcr.io/mean-krm-ff/cymbal-bank/release/userservice:c5681d5
         env:
         - name: ENABLE_TRACING
           value: "true"

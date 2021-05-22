@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: balancereader
-        image: gcr.io/mean-krm-ff/cymbal-bank/release/balancereader:2c19bd1
+        image: gcr.io/mean-krm-ff/cymbal-bank/release/balancereader:c5681d5
         env:
         - name: ENABLE_TRACING
           value: "true"
